@@ -36,7 +36,7 @@
 	<feature name="http://api.phonegap.com/1.0/camera"/>
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version"           value="2.3.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"           value="2.0.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
@@ -60,7 +60,8 @@
 <gap:plugin name="ChildBrowser" version="~1" /> <!-- for PhoneGap <= 1.4.1 -->
 <gap:plugin name="Camera" value="CDVCamera" />
 
-
+<plugin name="Capture" value="CDVCapture" />
+  <plugin name="Camera" value="CDVCamera" />
 
     <!--
         <gap:plugin name="Example" />
